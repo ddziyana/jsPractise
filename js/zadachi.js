@@ -140,3 +140,17 @@ const bill = 275;
 let tip = 50 <= bill && bill <= 300 ? 0.15*bill : 0.2*bill;
 
 console.log(bill + tip);
+
+
+
+const animals = ["ant", "bison", "camel", "duck", "elephant"];
+console.log(animals.slice(2));
+console.log(animals.push("cows"));
+console.log(animals.pop());
+
+const array = [1, 4, 9, 16];
+const mapped = array.map((x) => x * 2);
+console.log(mapped);
+
+
+
